@@ -1,6 +1,5 @@
 .main_top {
-  padding-top: 165px;
-  padding-bottom: 150px;
+  padding: 165px 0 150px 0;
   background-image: url(../../img/hero.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -71,7 +70,6 @@
 .menu__box {
   margin: 0;
   display: flex;
-  // align-items: center;
   justify-content: center;
 }
 
@@ -113,6 +111,10 @@
 
 // HOURS  MAIN =========================================
 
+.hours {
+  padding: 60px 0;
+}
+
 .hours__container {
   display: flex;
   align-items: center;
@@ -134,12 +136,17 @@
 .hours__box {
   background: #1f2b6c;
   border-radius: 5px;
-  padding: 50px;
+  padding: 40px 45px;
+}
+
+.hours__list {
+  margin: 0;
+  padding: 0;
 }
 
 .hours__title {
   margin: 0;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   font-family: "Yeseva One";
   font-weight: 400;
   font-size: 48px;
@@ -161,23 +168,23 @@
   color: #fcfefe;
 }
 
+.hours__item_desc {
+  margin: 0;
+  min-width: 104px;
+}
+
+.hours__item_desc1 {
+  margin: 0;
+  min-width: 145px;
+}
+
 .hours__item1 {
   justify-content: flex-start;
 }
 
-.hours__item div {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.hours__item1 div {
-  margin-left: 44px;
-}
-
-.hours__item div line {
+.hours__item line {
   display: inline-block;
-  width: 20px;
+  max-width: 40px;
   max-height: 2px;
   padding: 0;
   color: #1f2b6c;
@@ -188,4 +195,190 @@
   margin: 0;
   margin-left: 70px;
   display: inline-block;
+}
+
+// INFO MAIN ==========================================
+.info {
+  background-image: url(../../img/lupa.png);
+  background-repeat: no-repeat;
+  background-size: 120%;
+  background-color: #a5bfce;
+}
+
+.info__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 105px 20px;
+}
+
+.info__title {
+  max-width: 510px;
+  margin: 0;
+  margin-bottom: 18px;
+  font-family: "Yeseva One";
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
+  text-align: center;
+  color: #1f2b6c;
+}
+
+.info__desc {
+  max-width: 658px;
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: #212124;
+}
+
+@media only screen and (max-width: 902px) {
+  .hours__container {
+    flex-direction: column;
+  }
+
+  .hours__left {
+    width: 90%;
+    margin-bottom: 30px;
+  }
+
+  .hours__right {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 842px) {
+  .main_top {
+    padding-top: 100px;
+    padding-bottom: 110px;
+  }
+
+  .main_top__title {
+    margin-bottom: 32px;
+    font-size: 40px;
+  }
+
+  .menu__title,
+  .hours__title {
+    font-size: 40px;
+  }
+
+  .info {
+    background-size: 130%;
+  }
+
+  .info__container {
+    padding: 60px 20px;
+  }
+
+  .info__title {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 623px) {
+  .menu__list1 {
+    margin-left: 0px;
+  }
+
+  .hours__right {
+    width: 85%;
+  }
+
+  .hours__title {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 566px) {
+  .main_top__title {
+    margin-bottom: 32px;
+    max-width: 450px;
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .menu__title,
+  .hours__title {
+    font-size: 30px;
+  }
+
+  .info__title {
+    font-size: 24px;
+    line-height: 26px;
+    max-width: 400px;
+  }
+}
+
+@media only screen and (max-width: 556px) {
+  .menu__box {
+    flex-direction: column;
+  }
+
+  .menu__title1 {
+    margin-bottom: 0px;
+  }
+
+  .menu__title {
+    margin-bottom: 15px;
+  }
+
+  .menu__item {
+    margin: 0;
+    padding: 0;
+    height: 20px;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .hours__right {
+    width: 95%;
+  }
+
+  .hours__title {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 474px) {
+  .hours__box {
+    padding: 20px 25px;
+  }
+}
+
+@media only screen and (max-width: 418px) {
+  .main_top__title,
+  .menu__title,
+  .hours__title {
+    font-size: 26px;
+  }
+
+  .info__title {
+    font-size: 20px;
+    line-height: 23px;
+    max-width: 400px;
+  }
+
+  .hours__item_desc {
+    font-size: 16px;
+    min-width: 87px;
+  }
+
+  .hours__item_desc1 {
+    font-size: 16px;
+    min-width: 120px;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .hours__container {
+    padding: 0;
+  }
+
+  .hours__right {
+    width: 100%;
+  }
 }

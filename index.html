@@ -10,35 +10,61 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Work+Sans:wght@400;500;600;700&family=Yeseva+One&display=swap"
       rel="stylesheet"
     />
+    <!-- <link rel="icon" href="./img/logo.png" /> -->
     <link rel="stylesheet" href="./css/main.css" />
-    <title>Starter Scss</title>
+    <title>Klinika Shodlik</title>
   </head>
   <body>
     <!-- HEADER -->
-    <header class="header">
-      <div class="container header__container">
-        <a href="#" class="header__logo">
-          <img src="./img/logo.png" alt="" width="108" height="92" />
-          klinika
+
+    <header class="headers">
+      <h1 class="visually-hidden">klinikashodlik</h1>
+      <h1 class="visually-hidden">shodlik</h1>
+      <div class="header">
+        <div class="container header__container">
+          <div class="header__logo1">
+            <a href="#" class="header__logo">
+              <img src="./img/logo.png" alt="" width="108" height="92" />
+              <p>klinika</p>
+            </a>
+          </div>
+
+          <div class="header__contact">
+            <a href="tel:+998951447722" class="header__link tel">
+              <img src="./img/tell.png" alt="" />
+              <div>
+                <h3 class="header__link-title">tell</h3>
+                <p class="header__link-desc">(95) 144-77-22</p>
+              </div>
+            </a>
+
+            <a href="#" class="header__link lokation">
+              <img src="./img/lokatsiya.svg" alt="" />
+              <div>
+                <h3 class="header__link-title">joylashuv</h3>
+                <p class="header__link-desc">0123 Some Place</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="header__contact1">
+        <a href="tel:+998951447722" class="header__link tel">
+          <img src="./img/tell.png" alt="" />
+          <div>
+            <h3 class="header__link-title">tell</h3>
+            <p class="header__link-desc">(95) 144-77-22</p>
+          </div>
         </a>
 
-        <div class="header__contact">
-          <a href="#" class="header__link tel">
-            <img src="./img/tell.png" alt="" />
-            <div>
-              <h3 class="header__link-title">tell</h3>
-              <p class="header__link-desc">(237) 681-812-255</p>
-            </div>
-          </a>
-
-          <a href="#" class="header__link lokation">
-            <img src="./img/lokatsiya.svg" alt="" />
-            <div>
-              <h3 class="header__link-title">joylashuv</h3>
-              <p class="header__link-desc">0123 Some Place</p>
-            </div>
-          </a>
-        </div>
+        <a href="#" class="header__link lokation">
+          <img src="./img/lokatsiya.svg" alt="" />
+          <div>
+            <h3 class="header__link-title">joylashuv</h3>
+            <p class="header__link-desc">0123 Some Place</p>
+          </div>
+        </a>
       </div>
     </header>
 
@@ -108,8 +134,8 @@
 
               <li class="menu__item">
                 <a href="#" class="menu__item-link"
-                  >Qalqonsimon bez funktsiyasini baholash</a
-                >
+                  >Qalqonsimon bez funktsiyalari
+                </a>
               </li>
 
               <li class="menu__item">
@@ -185,59 +211,51 @@
               <h2 class="hours__title">Ish vaqtlari</h2>
               <ul class="hours__list">
                 <li class="hours__item">
-                  Dushanba
-                  <div>
-                    <div class="line">-</div>
-                    <p>09:00 AM - 07:00 PM</p>
-                  </div>
+                  <p class="hours__item_desc">Dushanba</p>
+                  <div class="line">-</div>
+                  <p class="hours__item_desc1">08:00 - 19:00 PM</p>
                 </li>
 
                 <li class="hours__item">
-                  Seshanba
-                  <div>
-                    <div class="line">-</div>
-                    <p>09:00 AM - 07:00 PM</p>
-                  </div>
+                  <p class="hours__item_desc">Seshanba</p>
+
+                  <div class="line">-</div>
+                  <p class="hours__item_desc1">08:00 - 19:00 PM</p>
                 </li>
 
                 <li class="hours__item">
-                  Chorshanba
-                  <div>
-                    <div class="line">-</div>
-                    <p>09:00 AM - 07:00 PM</p>
-                  </div>
+                  <p class="hours__item_desc">Chorshanba</p>
+
+                  <div class="line">-</div>
+                  <p class="hours__item_desc1">08:00 - 19:00 PM</p>
                 </li>
 
                 <li class="hours__item">
-                  Payshanba
-                  <div>
-                    <div class="line">-</div>
-                    <p>09:00 AM - 07:00 PM</p>
-                  </div>
+                  <p class="hours__item_desc">Payshanba</p>
+
+                  <div class="line">-</div>
+                  <p class="hours__item_desc1">08:00 - 19:00 PM</p>
                 </li>
 
                 <li class="hours__item">
-                  Juma
-                  <div>
-                    <div class="line">-</div>
-                    <p>09:00 AM - 07:00 PM</p>
-                  </div>
+                  <p class="hours__item_desc">Juma</p>
+
+                  <div class="line">-</div>
+                  <p class="hours__item_desc1">08:00 - 19:00 PM</p>
                 </li>
 
                 <li class="hours__item">
-                  Shanba
-                  <div>
-                    <div class="line">-</div>
-                    <p>09:00 AM - 07:00 PM</p>
-                  </div>
+                  <p class="hours__item_desc">Shanba</p>
+
+                  <div class="line">-</div>
+                  <p class="hours__item_desc1">08:00 - 19:00 PM</p>
                 </li>
 
-                <li class="hours__item hours__item1">
-                  Yakshanba
-                  <div>
-                    <div class="line">-</div>
-                    <p>Ishlamaydi</p>
-                  </div>
+                <li class="hours__item">
+                  <p class="hours__item_desc">Yakshanba</p>
+
+                  <div class="line">-</div>
+                  <p class="hours__item_desc1">Damolish kuni</p>
                 </li>
               </ul>
             </div>
@@ -247,7 +265,7 @@
 
       <!-- INFO_MAIM -->
       <div class="info">
-        <div class="container">
+        <div class="container info__container">
           <h2 class="info__title">
             Bizning maqsadimiz Sog'liqni saqlash va insonlarga xizmat ko'rsatish
           </h2>
@@ -262,6 +280,142 @@
           </p>
         </div>
       </div>
+
+      <!-- CONTACT_MAIN -->
+      <div class="contact">
+        <div class="container contact__container">
+          <p class="contact__title1">Aloqa uchun</p>
+          <h2 class="contact__title">Contact</h2>
+          <ul class="contact__list">
+            <li class="contact__item">
+              <img class="contact__item_img" src="./img/loocc.png" alt="tell" />
+
+              <h3 class="contact__item_title">tell</h3>
+
+              <a href="tel:+998951447722" class="contact__item_desc">
+                +998 (95) 144 77 22
+              </a>
+
+              <a href="tel:+998935817722" class="contact__item_desc">
+                +998 (93) 581 77 22
+              </a>
+            </li>
+
+            <li class="contact__item">
+              <a href="#">
+                <img
+                  class="contact__item_img"
+                  src="./img/lokatsiya.svg"
+                  alt="tell"
+                />
+              </a>
+
+              <a href="tel:+998951447722" class="contact__item_title">
+                joylashuv
+              </a>
+
+              <a
+                class="contact__item_desc"
+                href="tel:+998951447722"
+                class="contact__item_desc"
+              >
+                +998 (95) 144 77 22
+              </a>
+
+              <a href="tel:+998935817722" class="contact__item_desc">
+                +998 (93) 581 77 22
+              </a>
+            </li>
+
+            <li class="contact__item">
+              <a href="#">
+                <img
+                  class="contact__item_img"
+                  src="./img/telegram-5945.svg"
+                  width="35"
+                  alt="tell"
+                />
+              </a>
+
+              <a href="tel:+998951447722" class="contact__item_title">
+                telegram
+              </a>
+
+              <a
+                class="contact__item_desc"
+                href="tel:+998951447722"
+                class="contact__item_desc"
+              >
+                +998 (95) 144 77 22
+              </a>
+
+              <a href="tel:+998935817722" class="contact__item_desc">
+                +998 (93) 581 77 22
+              </a>
+            </li>
+
+            <li class="contact__item">
+              <img class="contact__item_img" src="./img/looc.png" alt="tell" />
+
+              <h3 class="contact__item_title">ish vaqti</h3>
+
+              <p href="tel:+998951447722" class="contact__item_desc">
+                Dushanba-Shanba
+              </p>
+
+              <p href="tel:+998935817722" class="contact__item_desc">
+                08:00-21:00
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
     </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container footer__container">
+        <div class="footer__top">
+          <h2 class="footer__title">Shodlik klinikasi</h2>
+
+          <p class="footer__desc">
+            Tibbiyotda yetakchilik Mukammallik, g'amxo'rlik.
+          </p>
+
+          <div class="footer__contact">
+            <h3 class="footer__contact_title">Aloqa uchun</h3>
+
+            <a href="tel:+998951447722" class="footer__contact_link">
+              Tell: (95) 144 77 22
+            </a>
+
+            <a
+              href="https://t.me/nosirovshamsiddin"
+              target="blanc"
+              class="footer__contact_link"
+            >
+              Telegram: t.me/nosirov
+            </a>
+          </div>
+        </div>
+
+        <hr class="footer__line" />
+        <div class="footer__bot">
+          <p>© 2021 Hospital’s name All Rights Reserved by PNTEC-LTD</p>
+          <div class="footer__bot_lincs">
+            <a
+              href="https://t.me/nosirovshamsiddin"
+              target="blanc"
+              class="footer__lincs"
+            >
+              <img src="./img/telegram.svg" alt="" width="30" height="30" />
+            </a>
+            <a href="tel:+998951447722" class="footer__lincs">
+              <img src="./img/phone.svg" alt="" width="30" height="30" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
