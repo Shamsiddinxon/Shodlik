@@ -24,7 +24,7 @@
         <div class="container header__container">
           <div class="header__logo1">
             <a href="#" class="header__logo">
-              <img src="./img/logo.png" alt="" width="108" height="92" />
+              <img src="./img/logo.svg" alt="" width="108" height="92" />
               <p>klinika</p>
             </a>
           </div>
@@ -38,11 +38,15 @@
               </div>
             </a>
 
-            <a href="#" class="header__link lokation">
+            <a
+              href="https://www.google.com/maps/place/41%C2%B018'08.0%22N+69%C2%B038'09.3%22E/@41.302224,69.6353926,16.45z/data=!4m5!3m4!1s0x0:0x23bfada7c3357adb!8m2!3d41.30223!4d69.635907"
+              class="header__link lokation"
+              target="blanc"
+            >
               <img src="./img/lokatsiya.svg" alt="" />
               <div>
                 <h3 class="header__link-title">joylashuv</h3>
-                <p class="header__link-desc">0123 Some Place</p>
+                <p class="header__link-desc">8J2P Parkent</p>
               </div>
             </a>
           </div>
@@ -62,7 +66,7 @@
           <img src="./img/lokatsiya.svg" alt="" />
           <div>
             <h3 class="header__link-title">joylashuv</h3>
-            <p class="header__link-desc">0123 Some Place</p>
+            <p class="header__link-desc">8J2P Parkent</p>
           </div>
         </a>
       </div>
@@ -73,9 +77,9 @@
       <!-- HERO -->
       <div class="hero">
         <div class="container hero__container">
-          <a href="#" class="hero__link"> Biz xaqimizda</a>
-          <a href="#" class="hero__link"> Bizning hizmatlar</a>
-          <a href="#" class="hero__link"> Contact</a>
+          <a href="#menu" class="hero__link"> Bizning hizmatlar</a>
+          <a href="#info" class="hero__link"> Biz xaqimizda</a>
+          <a href="#contact" class="hero__link"> Aloqa</a>
         </div>
       </div>
 
@@ -85,12 +89,12 @@
           <h1 class="main_top__title">
             Shodlik klinikasi Laboratoriya hizmatlari
           </h1>
-          <a href="#" class="main_top__btn">Bizning xizmatlar</a>
+          <a href="#menu" class="main_top__btn">Bizning xizmatlar</a>
         </div>
       </div>
 
       <!-- MAIN_MENU -->
-      <div class="menu">
+      <div class="menu" id="menu">
         <div class="container menu__container">
           <h3 class="menu__title1">Laboratoria</h3>
           <h2 class="menu__title">Bizning Hizmatlar</h2>
@@ -264,7 +268,7 @@
       </div>
 
       <!-- INFO_MAIM -->
-      <div class="info">
+      <div class="info" id="info">
         <div class="container info__container">
           <h2 class="info__title">
             Bizning maqsadimiz Sog'liqni saqlash va insonlarga xizmat ko'rsatish
@@ -282,15 +286,21 @@
       </div>
 
       <!-- CONTACT_MAIN -->
-      <div class="contact">
+      <div class="contact" id="contact">
         <div class="container contact__container">
           <p class="contact__title1">Aloqa uchun</p>
           <h2 class="contact__title">Contact</h2>
           <ul class="contact__list">
             <li class="contact__item">
-              <img class="contact__item_img" src="./img/loocc.png" alt="tell" />
+              <a href="tel:+998951447722" href="">
+                <img
+                  class="contact__item_img"
+                  src="./img/loocc.png"
+                  alt="tell"
+                />
+              </a>
 
-              <h3 class="contact__item_title">tell</h3>
+              <a href="tel:+998951447722" class="contact__item_title">tell</a>
 
               <a href="tel:+998951447722" class="contact__item_desc">
                 +998 (95) 144 77 22
@@ -302,33 +312,7 @@
             </li>
 
             <li class="contact__item">
-              <a href="#">
-                <img
-                  class="contact__item_img"
-                  src="./img/lokatsiya.svg"
-                  alt="tell"
-                />
-              </a>
-
-              <a href="tel:+998951447722" class="contact__item_title">
-                joylashuv
-              </a>
-
-              <a
-                class="contact__item_desc"
-                href="tel:+998951447722"
-                class="contact__item_desc"
-              >
-                +998 (95) 144 77 22
-              </a>
-
-              <a href="tel:+998935817722" class="contact__item_desc">
-                +998 (93) 581 77 22
-              </a>
-            </li>
-
-            <li class="contact__item">
-              <a href="#">
+              <a href="https://t.me/Shodlikklinikasi" target="blanc">
                 <img
                   class="contact__item_img"
                   src="./img/telegram-5945.svg"
@@ -337,20 +321,59 @@
                 />
               </a>
 
-              <a href="tel:+998951447722" class="contact__item_title">
+              <a
+                href="https://t.me/Shodlikklinikasi"
+                class="contact__item_title"
+                target="blanc"
+              >
                 telegram
               </a>
 
               <a
                 class="contact__item_desc"
-                href="tel:+998951447722"
+                href="https://t.me/Shodlikklinikasi"
+                target="blanc"
                 class="contact__item_desc"
               >
-                +998 (95) 144 77 22
+                @Shodlikklinikasi
               </a>
 
               <a href="tel:+998935817722" class="contact__item_desc">
-                +998 (93) 581 77 22
+                <!-- +998 (93) 581 77 22 -->
+              </a>
+            </li>
+
+            <li class="contact__item">
+              <a
+                href="https://www.google.com/maps/place/41%C2%B018'08.0%22N+69%C2%B038'09.3%22E/@41.302224,69.6353926,16.45z/data=!4m5!3m4!1s0x0:0x23bfada7c3357adb!8m2!3d41.30223!4d69.635907"
+              >
+                <img
+                  class="contact__item_img"
+                  src="./img/lokatsiya.svg"
+                  alt="tell"
+                />
+              </a>
+
+              <a
+                href="https://www.google.com/maps/place/41%C2%B018'08.0%22N+69%C2%B038'09.3%22E/@41.302224,69.6353926,16.45z/data=!4m5!3m4!1s0x0:0x23bfada7c3357adb!8m2!3d41.30223!4d69.635907"
+                class="contact__item_title"
+              >
+                joylashuv
+              </a>
+
+              <a
+                class="contact__item_desc"
+                href="https://www.google.com/maps/place/41%C2%B018'08.0%22N+69%C2%B038'09.3%22E/@41.302224,69.6353926,16.45z/data=!4m5!3m4!1s0x0:0x23bfada7c3357adb!8m2!3d41.30223!4d69.635907"
+                class="contact__item_desc"
+              >
+                Tashkent vil. Parkent
+              </a>
+
+              <a
+                href="https://www.google.com/maps/place/41%C2%B018'08.0%22N+69%C2%B038'09.3%22E/@41.302224,69.6353926,16.45z/data=!4m5!3m4!1s0x0:0x23bfada7c3357adb!8m2!3d41.30223!4d69.635907"
+                class="contact__item_desc"
+              >
+                Parazitar ko'chasi
               </a>
             </li>
 
