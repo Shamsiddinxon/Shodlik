@@ -393,6 +393,24 @@
           </ul>
         </div>
       </div>
+
+      <!-- MAP -->
+      <div class="map">
+        <div class="container">
+          <YMaps>
+            <Map
+              width="100%"
+              height={200}
+              defaultState={{
+                center: [41.285766, 69.203664],
+                zoom: 16,
+              }}
+            >
+              <Placemark geometry={[41.285766, 69.203664]} />
+            </Map>
+          </YMaps>
+        </div>
+      </div>
     </main>
 
     <!-- FOOTER -->
